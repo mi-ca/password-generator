@@ -11,3 +11,6 @@ Usage
 --------------
 
 Using Alfred, type _pw_ and the amount of characters you desire. For example, if you want a 32 character password, type _pw 32_.
+
+Used Regex
+c="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
